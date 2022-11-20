@@ -134,7 +134,18 @@ more, feel free to click on the triangle! You're not going to break anything.
 First, let's add a title to our page:
 
 ```html
-<h1>My HTML adventure</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Introduction to the DOM Lab</title>
+  </head>
+  <body>
+    <!--All our work for this lesson will go here-->
+  </body>
+</html>
 ```
 
 Refresh the page to see the changes displayed in the browser. If you view the
